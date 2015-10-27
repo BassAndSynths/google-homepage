@@ -1,0 +1,182 @@
+* {
+	font-family: arial;
+}
+
+* a{
+	font-family: arial;
+	text-decoration: none;
+}
+.controls_1{
+	width: 100%;
+	height: 63px;
+	position: relative;
+	top: 0;
+	background-color: #EBEBEB;
+	border: #D7D7D7 solid 1px;
+}
+
+.controls_1l{
+	margin-top: -5px;
+	padding-left: 15px;
+	padding-bottom: 5px;
+	float: left;
+}
+
+.controls_1l *{
+	display: inline;
+}
+
+#gooble img{
+	height: 26px;
+	position: relative;
+	top: 2px;
+	left: 0;
+	padding-right: 17px;
+}
+
+.controls_1l input{
+	height: 42px;
+	width: 636px;
+	position: relative;
+	top: -3px;
+	font-family: arial;
+	font-size: 1.1em;
+	padding-left: 8px;
+	border: #D7D7D7 solid 1px;
+}
+
+.controls_1l img{
+	height:44px;
+	position: relative;
+	top: 14px;
+	left: -5px;
+}
+
+.controls_1r{
+	float: right;
+	margin-right: 37px;	
+}
+
+.controls_1r img{
+	height: 25px;
+	margin-left: 17px;
+	margin-top: 17px;
+
+}
+
+.controls_1r p{
+	display: inline;
+	position: relative;
+	bottom: 5px;
+	color: grey;
+}
+
+.controls_2{
+	border-bottom:#D7D7D7 solid 1px;
+	width: 100%;
+	height: 66px;
+	position: relative;
+	
+}
+
+.c2_l{
+	margin-left: 150px;
+	margin-top: 24px;	
+	float: left;
+}
+
+.c2_l a{
+	font-size: 0.9em;
+	padding-right: 31px;
+	color: grey;
+}
+
+.c2_r{
+	margin-right: 50px;
+	margin-top: 18px;	
+	float: right;
+}
+
+#results_head{
+	color: #585858 ;
+	margin-left:150px;
+	padding-top: 15px; 
+	font-size: 0.9em;
+}
+
+.results_content{
+	color: #585858 ;
+	margin-left:149px;
+	padding-top: 26px; 
+	font-size: 0.9em;
+	width: 550px;
+	line-height: 139%;
+}
+
+.results_content a{
+	color: blue;
+	text-decoration: none;
+	font-size: 1.4em;
+}
+
+.results_content a:hover{
+	text-decoration: underline;
+}
+
+.address{
+	color: green;
+}
+
+.content_footer {
+	color: blue ;
+	margin-left:149px;
+	padding-top: 26px;
+	padding-bottom: 10px; 
+	font-size: 0.9em;
+	width: 550px;
+	line-height: 160%;
+	display: block;
+	border-bottom: #D7D7D7 1px solid;
+}
+
+.content_footer p{
+	font-size: 1.5em;
+	color: grey;
+	padding-bottom: 13px;
+}
+
+.content_footer a{
+	color: blue;
+}
+
+#page_number{
+	margin-top: 35px;
+	margin-left: 265px;
+	margin-bottom: 25px;
+}
+
+#footer{
+	width: 100%;
+	height: 75px;
+	background-color: #EBEBEB;
+	border: #D7D7D7 solid 1px;
+}
+
+#f_1, #f_2{
+	color: grey;
+	margin-left: 149px;
+	margin-top: 20px;
+	font-size: 0.9em;
+}
+
+#f_1 *, #f_2 *{
+	display: inline;
+}
+
+#footer a{
+	color: #585858;
+}
+
+#f_2 a{
+	padding-right: 23px;
+}

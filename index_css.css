@@ -1,0 +1,157 @@
+
+*{
+	font-family: arial;
+}
+
+div {
+	height: 10px;
+	width:10px;
+	/*border: 1px red solid;*/
+}
+
+
+#header{
+	position: fixed;
+	width: 100%;
+	height: 45px;
+	margin-top: 0;
+	text-align: right;
+	color: grey;
+	padding-top: 21px;
+	/*margin-bottom: 500px;*/
+}
+
+#header p{
+	display: inline;
+	font-family: arial;
+	font-size: .8em;
+	position: relative;
+	bottom: 5px;
+}
+
+#header img{
+	padding-left: 8px;
+	width: 20px;
+}
+
+#header a{
+	color: grey;
+	text-decoration: none;
+	font-family: arial;
+	font-size: .8em;
+
+}
+
+#header a:hover {
+	text-decoration: underline;
+	font-family: arial;
+	font-size: .8em;
+	color: black;
+}
+
+#header *{
+	margin-right: 10px;
+}
+
+#main{
+	width: 100%;
+	height: 200px;
+	position: relative;
+	top: 200px;
+	margin: auto;
+}
+
+.logo_search{
+	height: 150px;
+	width: 600px;
+	margin:auto;
+	margin-bottom: 15px;
+}
+
+.logo_search img {
+	display: block;
+	width:270px;
+	margin: auto;
+	margin-bottom:30px;
+}
+
+.logo_search input {
+	display: block;
+	width:600px;
+	height: 36px;
+	border: 1px grey dotted;
+	margin: auto;
+	margin-bottom:2px;
+}
+
+.logo_search input:hover{
+	border:1px dotted black;
+}
+
+.submit {
+	display: block;
+	width: 320px;
+	height: 40px;
+	margin: auto;
+}
+
+.submit input {
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 5px;
+	padding: 8px 15px 8px 15px;
+	border: white 1px dotted;
+	font-weight: bold;
+	font-family: Arial;
+	color: grey;
+	font-size: .9em;
+}
+
+.submit input:hover {
+	border: 1px grey dotted;
+	font-weight: bold;
+	font-family: Arial;
+	color: black;
+	font-size: .9em;
+}
+
+#footer{
+	width: 100%;
+	height: 37px;
+	position: fixed;
+	bottom: 0;
+	background-color: #EBEBEB;
+	border: #D7D7D7 solid 1px;
+}
+
+#footer div a{
+	color: grey;
+	display: inline;
+	text-decoration: none;
+	margin: 0 15px 0 15px;
+}
+
+#footer div a:hover{
+	text-decoration: underline;
+	color: #5B5B5B;
+}
+
+#footer div{
+	margin-top: 6px;
+}
+
+#footer_left{
+	width: 500px;
+	float: left;
+	margin: 2px;
+	display: inline;
+	margin-left: 20px;
+}
+
+#footer_right{
+	text-align: right;
+	width: 500px;
+	float: right;
+	margin: 2px;
+	margin-right: 20px;
+}
